@@ -1,0 +1,57 @@
+*{
+    /* padding: 0;
+    margin: 0;
+    box-sizing: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.title h1{
+    display:flex;
+    justify-content: center;
+    margin: 15px 10px;
+
+}
+
+.title h2{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+}
+
+
+
+#firstName{
+  display: inline;
+  /* border: 5px red solid; */
+  
+}
+
+#lastName{
+    display: inline;
+}
+.email{
+    display: inline
+
+}
+.address{
+    display: inline;
+
+}
+.roomSelection{
+    display: inline;
+}
+
+.numOfAdults{
+   display: inline;
+}
+.selectNumOfNights{
+    display:flex;
+    flex-direction: column;
+    width:min-content;
+    margin: 100px 100px;
+}
+#button{
+display: flex;
+justify-content: center;
+}
