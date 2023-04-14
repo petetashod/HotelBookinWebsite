@@ -3,13 +3,18 @@
     margin: 0;
     box-sizing: 0; 
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/photo-1580655653885-65763b2597d0.avif")
 
 }
+
+
+
 
 .title h1{
     display:flex;
     justify-content: center;
     margin: 15px 10px;
+    color: #009B8A;
 
 }
 
@@ -17,41 +22,28 @@
     display: flex;
     margin: 15px;
     justify-content: center;
+    color: #009B8A;
 }
 
 
-
-#firstName{
-  display: inline;
-  /* border: 5px red solid; */
-  
-}
-
-#lastName{
-    display: inline;
-}
-.email{
-    display: inline
+#firstGroupInputs{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
 
 }
-.address{
-    display: inline;
 
-}
-.roomSelection{
-    display: inline;
+#secondGroupInputs{
+    display: flex;
+    margin: 50px;
+    width: 150%;
+    color:white;
 }
 
-.numOfAdults{
-   display: inline;
-}
-.selectNumOfNights{
-    display:flex;
-    flex-direction: column;
-    width:min-content;
-    margin: 100px 100px;
-}
-#button{
-display: flex;
-justify-content: center;
+#thirdGroupInputs{
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly;
+    color: white;
 }
